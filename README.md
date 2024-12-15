@@ -23,6 +23,26 @@ I am currently about that high on the Abstraction Scale.
 I like to think of myself as pragmatic, but I rarely think too much in concrete terms.
 I try to tone down on abstraction, but my words can be a bit too vague sometimes.
 
+### Projects
+
+I only make things that don't exist. 
+I'm not the type to 'one up' other people's project. 
+If someone else already made it, I would use it.
+I see the race to make 'better js framework' or 'better linux distros' as an artistic pursuit in a way.
+
+Developers are refining their 'creative process' through technical ingenuity.
+Even though at the end, the resulting product is always  the same.
+
+Personally, I'm not into that. I see programming as a means to an end, not the art in itself.
+
+Here are my current ongoing projects:
+
+[Mob Talker SDK](https://github.com/Iteranya/MobTalkerSDK): Originally built to create script/resource pack for a Visual Novel Engine embedded inside a Minecraft. It is platform agnostic, the script written with this SDK are in pure Json FSM Format. Uses custom scripting language built on top of python.
+[Mob Talker Mod](https://github.com/Iteranya/MobTalkerRedux): Visual Novel Engine embedded inside minecraft, inspired by the old Mob Talker Mod. The engine itself is written in Pure Java.
+[Aktiva AI](https://github.com/Iteranya/AktivaAI): A versatile self-hosted Discord bot designed to enable users to interact seamlessly with multiple AI personalities in a single environment. Designed for assistant, roleplay, and quality of life. It supports multiple personality,  web search, image recognition, pdf reading, and more. Designed for Local AI but supports 3rd Party AI.
+
+More on the repo, not in active development.
+
 ### Development
 
 I see programming as another way to create things. Comparable to woodworking and drawing.
@@ -57,4 +77,5 @@ People hire professionals for accountability, not just expertise.
 I make Video Essays on Youtube, Write Things in Web Novel, and such.
 
 Also cooking.
+
 
