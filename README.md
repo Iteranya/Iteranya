@@ -37,9 +37,9 @@ Personally, I'm not into that. I see programming as a means to an end, not the a
 
 Here are my current ongoing projects:
 
-[Mob Talker SDK](https://github.com/Iteranya/MobTalkerSDK): Originally built to create script/resource pack for a Visual Novel Engine embedded inside a Minecraft. It is platform agnostic, the script written with this SDK are in pure Json FSM Format. Uses custom scripting language built on top of python.
-[Mob Talker Mod](https://github.com/Iteranya/MobTalkerRedux): Visual Novel Engine embedded inside minecraft, inspired by the old Mob Talker Mod. The engine itself is written in Pure Java.
-[Aktiva AI](https://github.com/Iteranya/AktivaAI): A versatile self-hosted Discord bot designed to enable users to interact seamlessly with multiple AI personalities in a single environment. Designed for assistant, roleplay, and quality of life. It supports multiple personality,  web search, image recognition, pdf reading, and more. Designed for Local AI but supports 3rd Party AI.
+- [Mob Talker SDK](https://github.com/Iteranya/MobTalkerSDK): Originally built to create script/resource pack for a Visual Novel Engine embedded inside a Minecraft. It is platform agnostic, the script written with this SDK are in pure Json FSM Format. Uses custom scripting language built on top of python.
+- [Mob Talker Mod](https://github.com/Iteranya/MobTalkerRedux): Visual Novel Engine embedded inside minecraft, inspired by the old Mob Talker Mod. The engine itself is written in Pure Java.
+- [Aktiva AI](https://github.com/Iteranya/AktivaAI): A versatile self-hosted Discord bot designed to enable users to interact seamlessly with multiple AI personalities in a single environment. Designed for assistant, roleplay, and quality of life. It supports multiple personality,  web search, image recognition, pdf reading, and more. Designed for Local AI but supports 3rd Party AI.
 
 More on the repo, not in active development.
 
