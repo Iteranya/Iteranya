@@ -38,10 +38,8 @@ Personally, I'm not into that. I see programming as a means to an end, not the a
 Here are my current ongoing projects:
 
 - [Mob Talker SDK](https://github.com/Iteranya/MobTalkerSDK): Originally built to create script/resource pack for a Visual Novel Engine embedded inside a Minecraft. It is platform agnostic, the script written with this SDK are in pure Json FSM Format. Uses custom scripting language built on top of python.
-- [Mob Talker Mod](https://github.com/Iteranya/MobTalkerRedux): Visual Novel Engine embedded inside minecraft, inspired by the old Mob Talker Mod. The engine itself is written in Pure Java.
 - [Aktiva AI](https://github.com/Iteranya/AktivaAI): A versatile self-hosted Discord bot designed to enable users to interact seamlessly with multiple AI personalities in a single environment. Designed for assistant, roleplay, and quality of life. It supports multiple personality,  web search, image recognition, pdf reading, and more. Designed for Local AI but supports 3rd Party AI.
-
-More on the repo, not in active development.
+- [Aina AI](https://github.com/Iteranya/Aina-Website-Builder): A simple HTML Viewer with an AI Attached to it. Supports any endpoint. I made it to help me create UI design for my projects. Turns out, she became more... 'powerful' than I expected. Check out [Aina-chan's Github Account](https://github.com/Ars-Aina) for projects I made with her help. 
 
 ### Development
 
@@ -71,6 +69,16 @@ No AI Companies want to be held accountable for the mistake their AI makes and t
 
 AI is best used for novel toy to play with, not a tool to replace professional.
 People hire professionals for accountability, not just expertise.
+
+EDIT: About Aina-chan
+
+As of writing this, Aina is mostly unknown. This is good, I'm not looking for attention. There's a reason why I gave her, her own account. It's to separate my work from her work.
+Yes, 99% of the codes Aina made (even her own source code) was AI generated. I don't want to pretend it isn't.
+Aina makes a great tool/companion to decorate the bare bones UI I made. She's really good HTML and CSS. With some amount of understanding how JS work.
+Moving forward, I can create some API and have her craft a UI to interact with those API, some amount of testing and experiment on it has been made.
+
+No, I'm not here to prove a point that developers are obsolete. There's a reason why Aina makes very simple things, because that's all she's good for, at least for now.
+Aina don't work without human supervision and trying to get her to generate an entire Saas just doesn't work. 
 
 ### Other Hobbies
 
