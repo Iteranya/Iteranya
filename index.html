@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iteranya's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-blue: #2c3e50;
+            --secondary-blue: #3498db;
+            --accent-green: #2ecc71;
+            --light-bg: #ecf0f1;
+            --dark-text: #2c3e50;
+            --light-text: #ecf0f1;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--light-bg);
+            color: var(--dark-text);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
+            color: var(--light-text);
+            padding: 2rem 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"><path fill="rgba(255,255,255,0.05)" d="M0,0 L100,0 L100,100 L0,100 Z" /><path fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="0.5" d="M0,50 L100,50 M50,0 L50,100" /></svg>');
+            opacity: 0.3;
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 1.5rem;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1.5rem;
+        }
+
+        .nav-links a {
+            color: var(--light-text);
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .nav-links a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: var(--accent-green);
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        section {
+            padding: 3rem 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        section:last-child {
+            border-bottom: none;
+        }
+
+        h2 {
+            color: var(--primary-blue);
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            position: relative;
+            display: inline-block;
+        }
+
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background-color: var(--accent-green);
+        }
+
+        .thinking-style {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 2rem;
+        }
+
+        .abstraction-scale {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 2rem 0;
+        }
+
+        .scale-line {
+            width: 4px;
+            height: 300px;
+            background: linear-gradient(to bottom, var(--secondary-blue), var(--accent-green));
+            position: relative;
+        }
+
+        .me-marker {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 20%;
+            background-color: var(--primary-blue);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-weight: bold;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .scale-labels {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 400px;
+            margin-top: 1rem;
+        }
+
+        .scale-label {
+            text-align: center;
+            width: 45%;
+            font-style: italic;
+            color: var(--dark-text);
+            opacity: 0.8;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .project-card {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-image {
+            height: 180px;
+            background-color: var(--primary-blue);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 3rem;
+        }
+
+        .project-content {
+            padding: 1.5rem;
+        }
+
+        .project-title {
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+            color: var(--primary-blue);
+        }
+
+        .project-description {
+            color: var(--dark-text);
+            opacity: 0.8;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+        }
+
+        .project-link {
+            display: inline-block;
+            background-color: var(--accent-green);
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+
+        .project-link:hover {
+            background-color: #27ae60;
+        }
+
+        .dev-philosophy {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .philosophy-card {
+            flex: 1;
+            min-width: 300px;
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .philosophy-icon {
+            font-size: 2rem;
+            color: var(--secondary-blue);
+            margin-bottom: 1rem;
+        }
+
+        .ai-stance {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 2rem;
+        }
+
+        .ai-point {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1.5rem;
+        }
+
+        .ai-icon {
+            font-size: 1.5rem;
+            color: var(--accent-green);
+            margin-right: 1rem;
+            margin-top: 0.2rem;
+        }
+
+        .hobbies-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .hobby-item {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            min-width: 200px;
+            text-align: center;
+        }
+
+        .hobby-icon {
+            font-size: 2rem;
+            color: var(--secondary-blue);
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background-color: var(--primary-blue);
+            color: var(--light-text);
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .social-link {
+            color: var(--light-text);
+            font-size: 1.5rem;
+            transition: color 0.3s ease;
+        }
+
+        .social-link:hover {
+            color: var(--accent-green);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.2rem;
+            }
+            
+            .nav-links {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content container">
+            <h1>Iteranya</h1>
+            <p class="tagline">Developer • Creator • Thinker</p>
+            <div class="nav-links">
+                <a href="#thinking">Thinking Style</a>
+                <a href="#projects">Projects</a>
+                <a href="#development">Development</a>
+                <a href="#ai">AI Philosophy</a>
+                <a href="#hobbies">Hobbies</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="thinking">
+            <h2>My Thinking Style</h2>
+            <p>This will be a wall of text, apologies for that. I'm still learning the art of documentation.</p>
+            
+            <div class="thinking-style">
+                <p>But anyways, a little something about me.</p>
+                
+                <div class="abstraction-scale">
+                    <div class="scale-line">
+                        <div class="me-marker">Me</div>
+                    </div>
+                    <div class="scale-labels">
+                        <div class="scale-label">Abstract<br>Philosophers, Linguists, Artists</div>
+                        <div class="scale-label">Concrete<br>Engineers, Programmers, Researchers</div>
+                    </div>
+                </div>
+                
+                <p>I am currently about that high on the Abstraction Scale. I like to think of myself as pragmatic, but I rarely think too much in concrete terms. I try to tone down on abstraction, but my words can be a bit too vague sometimes.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>I only make things that don't exist. I'm not the type to 'one up' other people's project. If someone else already made it, I would use it. I see the race to make 'better js framework' or 'better linux distros' as an artistic pursuit in a way.</p>
+            <p>Developers are refining their 'creative process' through technical ingenuity. Even though at the end, the resulting product is always the same.</p>
+            <p>Personally, I'm not into that. I see programming as a means to an end, not the art in itself.</p>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Mob Talker SDK</h3>
+                        <p class="project-description">Originally built to create script/resource pack for a Visual Novel Engine embedded inside Minecraft. Platform agnostic with scripts in pure Json FSM Format using custom scripting language built on top of python.</p>
+                        <a href="https://github.com/Iteranya/MobTalkerSDK" class="project-link" target="_blank">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Aktiva AI</h3>
+                        <p class="project-description">A versatile self-hosted Discord bot designed to enable users to interact seamlessly with multiple AI personalities in a single environment. Supports web search, image recognition, pdf reading, and more.</p>
+                        <a href="https://github.com/Iteranya/AktivaAI" class="project-link" target="_blank">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Aina AI</h3>
+                        <p class="project-description">A discord bot with pseudo CMS and AI Integration and HTML Viewer. Turns out, she became more 'powerful' than I expected. Check out Aina-chan's Github Account for projects made with her help.</p>
+                        <a href="https://github.com/Iteranya/Aina-Website-Creator" class="project-link" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="development">
+            <h2>Development Philosophy</h2>
+            <div class="dev-philosophy">
+                <div class="philosophy-card">
+                    <div class="philosophy-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Pragmatic Approach</h3>
+                    <p>I see programming as another way to create things, comparable to woodworking and drawing. I have no 'preferred' way to do programming or paradigm to follow. I do what is easiest to create the thing I wish to make.</p>
+                </div>
+                
+                <div class="philosophy-card">
+                    <div class="philosophy-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Tool Selection</h3>
+                    <p>I have a home server running Linux, but I use Windows for my development and general purpose needs. For me, Linux is a specialized tool, not a general purpose tool or workspace.</p>
+                </div>
+                
+                <div class="philosophy-card">
+                    <div class="philosophy-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI Assistance</h3>
+                    <p>I would use AI to write codes for me. I don't mind, as long as they get things done. Mostly for boilerplate code and refactoring. If I can understand the code AI makes, I can put it in with no worries.</p>
+                </div>
+                
+                <div class="philosophy-card">
+                    <div class="philosophy-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>OOP Focus</h3>
+                    <p>I am leaning on OOP now to structure my more complex projects. The organization and modularity it provides helps in managing larger codebases.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="ai">
+            <h2>Artificial Intelligence Philosophy</h2>
+            <div class="ai-stance">
+                <div class="ai-point">
+                    <div class="ai-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <div>
+                        <h3>AI as a Toy</h3>
+                        <p>AI as of right now makes a good toy. All of my AI Projects are designed to be used for amusement, not professional use.</p>
+                    </div>
+                </div>
+                
+                <div class="ai-point">
+                    <div class="ai-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div>
+                        <h3>On Image Generation</h3>
+                        <p>Stable Diffusion and Image Generation AI were created to replace Artists and Humans, that's my stance on it.</p>
+                    </div>
+                </div>
+                
+                <div class="ai-point">
+                    <div class="ai-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <div>
+                        <h3>Professional Concerns</h3>
+                        <p>I scorn people who slap AI into their product and calling it 'AI Powered', using it as an excuse to layoff employees, and replace humans. AI lacks accountability which is crucial in professional settings.</p>
+                    </div>
+                </div>
+                
+                <div class="ai-point">
+                    <div class="ai-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <div>
+                        <h3>Accountability Matters</h3>
+                        <p>People hire professionals for accountability, not just expertise. No AI companies want to be held accountable for the mistakes their AI makes.</p>
+                    </div>
+                </div>
+                
+                <div class="ai-point">
+                    <div class="ai-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <div>
+                        <h3>About Aina-chan</h3>
+                        <p>Aina makes a great tool/companion to decorate the bare bones UI I made. She's really good at HTML and CSS with some understanding of JS. However, she doesn't work without human supervision and can't generate complex systems.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="hobbies">
+            <h2>Other Hobbies</h2>
+            <div class="hobbies-list">
+                <div class="hobby-item">
+                    <div class="hobby-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Video Essays</h3>
+                    <p>I create thoughtful video essays on various topics and upload them to YouTube.</p>
+                </div>
+                
+                <div class="hobby-item">
+                    <div class="hobby-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Writing</h3>
+                    <p>I enjoy writing web novels and other creative pieces in my free time.</p>
+                </div>
+                
+                <div class="hobby-item">
+                    <div class="hobby-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Cooking</h3>
+                    <p>Experimenting with new recipes and cooking techniques is a passion of mine.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Connect with me</p>
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p class="copyright">© 2023 Iteranya. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Simple animation on scroll
+        const animateOnScroll = () => {
+            const elements = document.querySelectorAll('.project-card, .philosophy-card, .hobby-item');
+            
+            elements.forEach(element => {
+                const elementPosition = element.getBoundingClientRect().top;
+                const screenPosition = window.innerHeight / 1.3;
+                
+                if(elementPosition < screenPosition) {
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateY(0)';
+                }
+            });
+        };
+
+        // Set initial state for animation
+        document.querySelectorAll('.project-card, .philosophy-card, .hobby-item').forEach(element => {
+            element.style.opacity = '0';
+            element.style.transform = 'translateY(20px)';
+            element.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+        });
+
+        // Run animation check on scroll and load
+        window.addEventListener('scroll', animateOnScroll);
+        window.addEventListener('load', animateOnScroll);
+    </script>
+</body>
+</html>
+```
