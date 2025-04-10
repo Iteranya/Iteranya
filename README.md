@@ -1,6 +1,6 @@
 ## Welcome
 
-This will be a wall of text, apologies for that. I'm still learning the art of doocumentation.
+This will be a wall of text, apologies for that. I'm still learning the art of documentation.
 
 ### My Thinking Style
 
