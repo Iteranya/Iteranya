@@ -3,29 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iteranya's Portfolio</title>
+    <title>Iteranya | Developer Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
-            --primary-blue: #2c3e50;
-            --secondary-blue: #3498db;
-            --accent-green: #2ecc71;
-            --light-bg: #ecf0f1;
-            --dark-text: #2c3e50;
-            --light-text: #ecf0f1;
+            --bg-dark: #1a1a1a;
+            --bg-light: #2a2a2a;
+            --text-primary: #e0e0e0;
+            --text-secondary: #b0b0b0;
+            --accent-gold: #d4af37;
+            --accent-brown: #8b5a2b;
+            --border-radius: 8px;
+            --transition: all 0.3s ease;
         }
 
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
         body {
-            background-color: var(--light-bg);
-            color: var(--dark-text);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-primary);
             line-height: 1.6;
+            overflow-x: hidden;
         }
 
         .container {
@@ -35,10 +38,9 @@
         }
 
         header {
-            background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
-            color: var(--light-text);
+            background: linear-gradient(135deg, var(--bg-light) 0%, var(--bg-dark) 100%);
             padding: 2rem 0;
-            text-align: center;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
             position: relative;
             overflow: hidden;
         }
@@ -50,97 +52,103 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"><path fill="rgba(255,255,255,0.05)" d="M0,0 L100,0 L100,100 L0,100 Z" /><path fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="0.5" d="M0,50 L100,50 M50,0 L50,100" /></svg>');
-            opacity: 0.3;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="50" height="50" x="0" y="0" fill="none" stroke="%23d4af37" stroke-width="0.5"/><rect width="50" height="50" x="50" y="50" fill="none" stroke="%23d4af37" stroke-width="0.5"/></svg>');
+            opacity: 0.05;
+            z-index: 0;
         }
 
         .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
             position: relative;
             z-index: 1;
         }
 
-        h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-            animation: fadeIn 1s ease-in-out;
-        }
-
-        .tagline {
-            font-size: 1.2rem;
-            opacity: 0.9;
-            margin-bottom: 1.5rem;
-            animation: fadeIn 1.5s ease-in-out;
-        }
-
-        .nav-links {
+        .profile {
             display: flex;
-            justify-content: center;
-            gap: 2rem;
-            margin-top: 1.5rem;
+            align-items: center;
+            gap: 1.5rem;
         }
 
-        .nav-links a {
-            color: var(--light-text);
-            text-decoration: none;
-            font-weight: 500;
-            padding: 0.5rem 1rem;
-            border-radius: 4px;
-            transition: all 0.3s ease;
-            position: relative;
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--accent-gold);
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+            transition: var(--transition);
         }
 
-        .nav-links a:hover {
-            background-color: rgba(255, 255, 255, 0.2);
+        .profile-img:hover {
+            transform: rotate(5deg) scale(1.05);
+            box-shadow: 0 0 30px rgba(212, 175, 55, 0.5);
         }
 
-        .nav-links a::after {
-            content: '';
-            position: absolute;
-            bottom: -5px;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background-color: var(--accent-green);
-            transition: width 0.3s ease;
+        .profile-text h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+            color: var(--accent-gold);
         }
 
-        .nav-links a:hover::after {
-            width: 100%;
+        .profile-text p {
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .social-links a {
+            color: var(--text-secondary);
+            font-size: 1.5rem;
+            transition: var(--transition);
+        }
+
+        .social-links a:hover {
+            color: var(--accent-gold);
+            transform: translateY(-3px);
+        }
+
+        main {
+            padding: 3rem 0;
         }
 
         section {
-            padding: 3rem 0;
-            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            margin-bottom: 3rem;
+            background-color: var(--bg-light);
+            border-radius: var(--border-radius);
+            padding: 2rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            border-left: 4px solid var(--accent-gold);
         }
 
-        section:last-child {
-            border-bottom: none;
-        }
-
-        h2 {
-            color: var(--primary-blue);
-            font-size: 2rem;
+        section h2 {
+            color: var(--accent-gold);
             margin-bottom: 1.5rem;
+            font-size: 1.8rem;
             position: relative;
             display: inline-block;
         }
 
-        h2::after {
-            content: '';
+        section h2::after {
+            content: "";
             position: absolute;
-            bottom: -10px;
+            bottom: -8px;
             left: 0;
-            width: 50px;
-            height: 3px;
-            background-color: var(--accent-green);
+            width: 50%;
+            height: 2px;
+            background: linear-gradient(90deg, var(--accent-gold), transparent);
         }
 
         .thinking-style {
-            background-color: white;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            margin-top: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
         }
 
         .abstraction-scale {
@@ -151,466 +159,461 @@
         }
 
         .scale-line {
-            width: 4px;
-            height: 300px;
-            background: linear-gradient(to bottom, var(--secondary-blue), var(--accent-green));
+            width: 2px;
+            height: 200px;
+            background: linear-gradient(to bottom, var(--accent-gold), var(--accent-brown));
             position: relative;
         }
 
-        .me-marker {
+        .scale-marker {
             position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            top: 20%;
-            background-color: var(--primary-blue);
-            color: white;
-            padding: 0.5rem 1rem;
-            border-radius: 4px;
+            left: -15px;
+            width: 30px;
+            height: 30px;
+            background-color: var(--bg-dark);
+            border: 2px solid var(--accent-gold);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             font-weight: bold;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            color: var(--accent-gold);
         }
 
         .scale-labels {
             display: flex;
             justify-content: space-between;
-            width: 100%;
-            max-width: 400px;
+            width: 300px;
             margin-top: 1rem;
         }
 
         .scale-label {
             text-align: center;
             width: 45%;
-            font-style: italic;
-            color: var(--dark-text);
-            opacity: 0.8;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
         }
 
         .projects-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 2rem;
+            gap: 1.5rem;
             margin-top: 2rem;
         }
 
         .project-card {
-            background-color: white;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            background-color: var(--bg-dark);
+            border-radius: var(--border-radius);
+            padding: 1.5rem;
+            transition: var(--transition);
+            border: 1px solid rgba(212, 175, 55, 0.1);
         }
 
         .project-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            border-color: rgba(212, 175, 55, 0.3);
         }
 
-        .project-image {
-            height: 180px;
-            background-color: var(--primary-blue);
+        .project-card h3 {
+            color: var(--accent-gold);
+            margin-bottom: 0.5rem;
             display: flex;
             align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 3rem;
+            gap: 0.5rem;
         }
 
-        .project-content {
-            padding: 1.5rem;
+        .project-card h3 i {
+            font-size: 1.2rem;
         }
 
-        .project-title {
-            font-size: 1.3rem;
-            margin-bottom: 0.5rem;
-            color: var(--primary-blue);
-        }
-
-        .project-description {
-            color: var(--dark-text);
-            opacity: 0.8;
+        .project-card p {
+            color: var(--text-secondary);
             margin-bottom: 1rem;
-            font-size: 0.9rem;
+            font-size: 0.95rem;
         }
 
-        .project-link {
-            display: inline-block;
-            background-color: var(--accent-green);
-            color: white;
+        .project-links {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .project-links a {
+            color: var(--text-primary);
             text-decoration: none;
-            padding: 0.5rem 1rem;
+            font-size: 0.9rem;
+            padding: 0.3rem 0.8rem;
             border-radius: 4px;
-            font-weight: 500;
-            transition: background-color 0.3s ease;
-        }
-
-        .project-link:hover {
-            background-color: #27ae60;
-        }
-
-        .dev-philosophy {
+            background-color: rgba(212, 175, 55, 0.1);
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            transition: var(--transition);
             display: flex;
-            flex-wrap: wrap;
-            gap: 2rem;
-            margin-top: 2rem;
+            align-items: center;
+            gap: 0.3rem;
         }
 
-        .philosophy-card {
-            flex: 1;
-            min-width: 300px;
-            background-color: white;
+        .project-links a:hover {
+            background-color: rgba(212, 175, 55, 0.2);
+            border-color: var(--accent-gold);
+        }
+
+        .quote {
+            font-style: italic;
+            color: var(--text-secondary);
+            border-left: 3px solid var(--accent-brown);
+            padding-left: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .code-block {
+            background-color: var(--bg-dark);
+            border-radius: var(--border-radius);
+            padding: 1rem;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 0.9rem;
+            color: var(--accent-gold);
+            margin: 1rem 0;
+            overflow-x: auto;
+            border: 1px solid rgba(212, 175, 55, 0.1);
+        }
+
+        .post-mortem {
+            background-color: #2a1a1a;
+            border-left-color: #8b3a3a;
+        }
+
+        .post-mortem h2 {
+            color: #d46a6a;
+        }
+
+        .post-mortem h2::after {
+            background: linear-gradient(90deg, #d46a6a, transparent);
+        }
+
+        .timeline {
+            position: relative;
+            max-width: 800px;
+            margin: 2rem auto;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            width: 2px;
+            background-color: var(--accent-brown);
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -1px;
+        }
+
+        .timeline-item {
+            padding: 10px 40px;
+            position: relative;
+            width: 50%;
+            box-sizing: border-box;
+        }
+
+        .timeline-item:nth-child(odd) {
+            left: 0;
+        }
+
+        .timeline-item:nth-child(even) {
+            left: 50%;
+        }
+
+        .timeline-content {
             padding: 1.5rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background-color: var(--bg-dark);
+            border-radius: var(--border-radius);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+            position: relative;
         }
 
-        .philosophy-icon {
-            font-size: 2rem;
-            color: var(--secondary-blue);
-            margin-bottom: 1rem;
+        .timeline-content h3 {
+            color: var(--accent-gold);
+            margin-bottom: 0.5rem;
         }
 
-        .ai-stance {
-            background-color: white;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            margin-top: 2rem;
+        .timeline-content p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
         }
 
-        .ai-point {
-            display: flex;
-            align-items: flex-start;
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: var(--accent-gold);
+            border-radius: 50%;
+            top: 20px;
+            z-index: 1;
+        }
+
+        .timeline-item:nth-child(odd)::after {
+            right: -10px;
+        }
+
+        .timeline-item:nth-child(even)::after {
+            left: -10px;
+        }
+
+        .final-thoughts {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .final-thoughts p {
+            font-size: 1.1rem;
+            line-height: 1.8;
             margin-bottom: 1.5rem;
         }
 
-        .ai-icon {
-            font-size: 1.5rem;
-            color: var(--accent-green);
-            margin-right: 1rem;
-            margin-top: 0.2rem;
-        }
-
-        .hobbies-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1.5rem;
+        .signature {
+            font-family: 'Brush Script MT', cursive;
+            font-size: 2rem;
+            color: var(--accent-gold);
             margin-top: 2rem;
         }
 
-        .hobby-item {
-            background-color: white;
-            padding: 1.5rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            flex: 1;
-            min-width: 200px;
-            text-align: center;
-        }
-
-        .hobby-icon {
-            font-size: 2rem;
-            color: var(--secondary-blue);
-            margin-bottom: 1rem;
-        }
-
         footer {
-            background-color: var(--primary-blue);
-            color: var(--light-text);
             text-align: center;
             padding: 2rem 0;
-            margin-top: 3rem;
+            background-color: var(--bg-light);
+            border-top: 1px solid rgba(212, 175, 55, 0.2);
         }
 
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 1.5rem;
-            margin-top: 1rem;
-        }
-
-        .social-link {
-            color: var(--light-text);
-            font-size: 1.5rem;
-            transition: color 0.3s ease;
-        }
-
-        .social-link:hover {
-            color: var(--accent-green);
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
+        footer p {
+            color: var(--text-secondary);
         }
 
         @media (max-width: 768px) {
-            h1 {
-                font-size: 2.2rem;
-            }
-            
-            .nav-links {
+            .header-content {
                 flex-direction: column;
-                gap: 1rem;
+                text-align: center;
+                gap: 1.5rem;
             }
-            
-            .projects-grid {
-                grid-template-columns: 1fr;
+
+            .profile {
+                flex-direction: column;
+            }
+
+            .timeline::before {
+                left: 31px;
+            }
+
+            .timeline-item {
+                width: 100%;
+                padding-left: 70px;
+                padding-right: 25px;
+            }
+
+            .timeline-item:nth-child(even) {
+                left: 0;
+            }
+
+            .timeline-item::after {
+                left: 21px;
+            }
+
+            .timeline-item:nth-child(odd)::after {
+                right: auto;
+                left: 21px;
             }
         }
     </style>
 </head>
 <body>
     <header>
-        <div class="header-content container">
-            <h1>Iteranya</h1>
-            <p class="tagline">Developer • Creator • Thinker</p>
-            <div class="nav-links">
-                <a href="#thinking">Thinking Style</a>
-                <a href="#projects">Projects</a>
-                <a href="#development">Development</a>
-                <a href="#ai">AI Philosophy</a>
-                <a href="#hobbies">Hobbies</a>
+        <div class="container">
+            <div class="header-content">
+                <div class="profile">
+                    <img src="https://avatars.githubusercontent.com/u/152275094?v=4" alt="Iteranya" class="profile-img">
+                    <div class="profile-text">
+                        <h1>Iteranya</h1>
+                        <p>Developer | Creator | Thinker</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Iteranya" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
             </div>
         </div>
     </header>
 
     <main class="container">
-        <section id="thinking">
-            <h2>My Thinking Style</h2>
-            <p>This will be a wall of text, apologies for that. I'm still learning the art of documentation.</p>
+        <section class="thinking-style">
+            <h2><i class="fas fa-brain"></i> My Thinking Style</h2>
+            <p>I exist somewhere between abstract philosophers and concrete engineers, balancing creative vision with practical implementation.</p>
             
-            <div class="thinking-style">
-                <p>But anyways, a little something about me.</p>
-                
-                <div class="abstraction-scale">
-                    <div class="scale-line">
-                        <div class="me-marker">Me</div>
+            <div class="abstraction-scale">
+                <div class="scale-line">
+                    <div class="scale-marker" style="top: 30%;">Me</div>
+                </div>
+                <div class="scale-labels">
+                    <div class="scale-label">
+                        <p>Philosophers<br>Linguists<br>Artists</p>
                     </div>
-                    <div class="scale-labels">
-                        <div class="scale-label">Abstract<br>Philosophers, Linguists, Artists</div>
-                        <div class="scale-label">Concrete<br>Engineers, Programmers, Researchers</div>
+                    <div class="scale-label">
+                        <p>Engineers<br>Programmers<br>Researchers</p>
                     </div>
                 </div>
-                
-                <p>I am currently about that high on the Abstraction Scale. I like to think of myself as pragmatic, but I rarely think too much in concrete terms. I try to tone down on abstraction, but my words can be a bit too vague sometimes.</p>
             </div>
+
+            <p>I try to maintain pragmatism while acknowledging my tendency toward abstract thinking. My words may sometimes be vague, but my intentions are always clear.</p>
         </section>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <p>I only make things that don't exist. I'm not the type to 'one up' other people's project. If someone else already made it, I would use it. I see the race to make 'better js framework' or 'better linux distros' as an artistic pursuit in a way.</p>
-            <p>Developers are refining their 'creative process' through technical ingenuity. Even though at the end, the resulting product is always the same.</p>
-            <p>Personally, I'm not into that. I see programming as a means to an end, not the art in itself.</p>
+        <section>
+            <h2><i class="fas fa-code-branch"></i> Projects</h2>
+            <p class="quote">"I only make things that don't exist. I'm not the type to 'one up' other people's projects. If someone else already made it, I would use it."</p>
             
+            <p>I see the endless race to create "better" frameworks or distros as an artistic pursuit - developers refining their creative process through technical ingenuity, even when the end results are often similar.</p>
+            
+            <p>For me, programming is a means to an end, not the art itself. Here are my current ongoing projects:</p>
+
             <div class="projects-grid">
                 <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-comments"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Mob Talker SDK</h3>
-                        <p class="project-description">Originally built to create script/resource pack for a Visual Novel Engine embedded inside Minecraft. Platform agnostic with scripts in pure Json FSM Format using custom scripting language built on top of python.</p>
-                        <a href="https://github.com/Iteranya/MobTalkerSDK" class="project-link" target="_blank">View Project</a>
+                    <h3><i class="fas fa-book"></i> Mob Talker SDK</h3>
+                    <p>Originally built for a Visual Novel Engine in Minecraft. Platform-agnostic with pure Json FSM format and custom Python-based scripting language.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Iteranya/MobTalkerSDK" target="_blank"><i class="fas fa-external-link-alt"></i> View Project</a>
                     </div>
                 </div>
                 
                 <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-robot"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Aktiva AI</h3>
-                        <p class="project-description">A versatile self-hosted Discord bot designed to enable users to interact seamlessly with multiple AI personalities in a single environment. Supports web search, image recognition, pdf reading, and more.</p>
-                        <a href="https://github.com/Iteranya/AktivaAI" class="project-link" target="_blank">View Project</a>
+                    <h3><i class="fas fa-robot"></i> Aktiva AI</h3>
+                    <p>A versatile self-hosted Discord bot for interacting with multiple AI personalities. Supports web search, image recognition, PDF reading, and more.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Iteranya/AktivaAI" target="_blank"><i class="fas fa-external-link-alt"></i> View Project</a>
                     </div>
                 </div>
                 
                 <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Aina AI</h3>
-                        <p class="project-description">A discord bot with pseudo CMS and AI Integration and HTML Viewer. Turns out, she became more 'powerful' than I expected. Check out Aina-chan's Github Account for projects made with her help.</p>
-                        <a href="https://github.com/Iteranya/Aina-Website-Creator" class="project-link" target="_blank">View Project</a>
+                    <h3><i class="fas fa-magic"></i> Aina AI</h3>
+                    <p>An HTML viewer with AI assistance for UI design. More powerful than expected - check out <a href="https://github.com/Ars-Aina" style="color: var(--accent-gold);">Aina-chan's GitHub</a> for projects created with her help.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Iteranya/Aina-Website-Creator" target="_blank"><i class="fas fa-external-link-alt"></i> View Project</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="development">
-            <h2>Development Philosophy</h2>
-            <div class="dev-philosophy">
-                <div class="philosophy-card">
-                    <div class="philosophy-icon">
-                        <i class="fas fa-tools"></i>
-                    </div>
-                    <h3>Pragmatic Approach</h3>
-                    <p>I see programming as another way to create things, comparable to woodworking and drawing. I have no 'preferred' way to do programming or paradigm to follow. I do what is easiest to create the thing I wish to make.</p>
-                </div>
-                
-                <div class="philosophy-card">
-                    <div class="philosophy-icon">
-                        <i class="fas fa-server"></i>
-                    </div>
-                    <h3>Tool Selection</h3>
-                    <p>I have a home server running Linux, but I use Windows for my development and general purpose needs. For me, Linux is a specialized tool, not a general purpose tool or workspace.</p>
-                </div>
-                
-                <div class="philosophy-card">
-                    <div class="philosophy-icon">
-                        <i class="fas fa-robot"></i>
-                    </div>
-                    <h3>AI Assistance</h3>
-                    <p>I would use AI to write codes for me. I don't mind, as long as they get things done. Mostly for boilerplate code and refactoring. If I can understand the code AI makes, I can put it in with no worries.</p>
-                </div>
-                
-                <div class="philosophy-card">
-                    <div class="philosophy-icon">
-                        <i class="fas fa-project-diagram"></i>
-                    </div>
-                    <h3>OOP Focus</h3>
-                    <p>I am leaning on OOP now to structure my more complex projects. The organization and modularity it provides helps in managing larger codebases.</p>
-                </div>
+        <section>
+            <h2><i class="fas fa-laptop-code"></i> Development Philosophy</h2>
+            <p>I view programming as a creative craft, comparable to woodworking or drawing. There's no single "right" way - I use whatever approach most effectively brings my ideas to life.</p>
+            
+            <div class="code-block">
+                # My development environment<br>
+                OS: Windows for daily use, Linux as a specialized tool<br>
+                AI: Used for boilerplate and refactoring (with understanding)<br>
+                Paradigm: Leaning toward OOP for complex projects
             </div>
+            
+            <p>Efficiency matters more than ideology. If AI can write maintainable code that solves the problem, I'll use it. The end result is what counts.</p>
         </section>
 
-        <section id="ai">
-            <h2>Artificial Intelligence Philosophy</h2>
-            <div class="ai-stance">
-                <div class="ai-point">
-                    <div class="ai-icon">
-                        <i class="fas fa-gamepad"></i>
-                    </div>
-                    <div>
-                        <h3>AI as a Toy</h3>
-                        <p>AI as of right now makes a good toy. All of my AI Projects are designed to be used for amusement, not professional use.</p>
-                    </div>
-                </div>
-                
-                <div class="ai-point">
-                    <div class="ai-icon">
-                        <i class="fas fa-paint-brush"></i>
-                    </div>
-                    <div>
-                        <h3>On Image Generation</h3>
-                        <p>Stable Diffusion and Image Generation AI were created to replace Artists and Humans, that's my stance on it.</p>
-                    </div>
-                </div>
-                
-                <div class="ai-point">
-                    <div class="ai-icon">
-                        <i class="fas fa-exclamation-triangle"></i>
-                    </div>
-                    <div>
-                        <h3>Professional Concerns</h3>
-                        <p>I scorn people who slap AI into their product and calling it 'AI Powered', using it as an excuse to layoff employees, and replace humans. AI lacks accountability which is crucial in professional settings.</p>
+        <section>
+            <h2><i class="fas fa-robot"></i> Views on Artificial Intelligence</h2>
+            <p>Current AI makes excellent toys but poor tools. All my AI projects are designed for amusement, not professional replacement.</p>
+            
+            <p class="quote">"I scorn those who slap 'AI-powered' on products as an excuse to lay off employees. AI lacks accountability - no company wants responsibility for its mistakes. Professionals are hired for accountability as much as expertise."</p>
+            
+            <h3 style="margin-top: 1.5rem; color: var(--accent-gold);">About Aina-chan</h3>
+            <p>Yes, 99% of Aina's code (even her own source) is AI-generated. She's a tool/companion for decorating barebones UIs, excellent with HTML/CSS and basic JS.</p>
+            
+            <p>She's not proof developers are obsolete - Aina only creates simple things under human supervision. Generating complete SaaS solutions remains beyond her capabilities.</p>
+        </section>
+
+        <section class="post-mortem">
+            <h2><i class="fas fa-clipboard-check"></i> Post Mortem: Aina-chan's Evolution</h2>
+            <p>The journey of Aina-chan reveals important truths about AI-assisted development.</p>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Aina-chan v1: The Replit Experiment</h3>
+                        <p>Inspired by Huggingface's Deepsite, I created Aina-chan on Replit. She worked surprisingly well, perfectly mimicking Deepsite's functionality.</p>
                     </div>
                 </div>
                 
-                <div class="ai-point">
-                    <div class="ai-icon">
-                        <i class="fas fa-user-shield"></i>
-                    </div>
-                    <div>
-                        <h3>Accountability Matters</h3>
-                        <p>People hire professionals for accountability, not just expertise. No AI companies want to be held accountable for the mistakes their AI makes.</p>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>The Discord Bot Revelation</h3>
+                        <p>Rebuilding Aina's functionality as a Discord bot took just 2 hours. The simplicity compared to the Replit version was shocking - why was the original so complicated?</p>
                     </div>
                 </div>
                 
-                <div class="ai-point">
-                    <div class="ai-icon">
-                        <i class="fas fa-code-branch"></i>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Overengineered Sophisticated Trainwreck</h3>
+                        <p>AI excels at single components but fails at project architecture. The original Aina-chan worked but was unmaintainable - AI can't distinguish overengineering from elegant solutions.</p>
                     </div>
-                    <div>
-                        <h3>About Aina-chan</h3>
-                        <p>Aina makes a great tool/companion to decorate the bare bones UI I made. She's really good at HTML and CSS with some understanding of JS. However, she doesn't work without human supervision and can't generate complex systems.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Aina-chan v2: The Maintainable Version</h3>
+                        <p>The current version keeps Aina's HTML/CSS generation (her true strength) while using sensible architecture. She remains open source, with plans to evolve into a WordPress-like CMS.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="hobbies">
-            <h2>Other Hobbies</h2>
-            <div class="hobbies-list">
-                <div class="hobby-item">
-                    <div class="hobby-icon">
-                        <i class="fas fa-video"></i>
-                    </div>
-                    <h3>Video Essays</h3>
-                    <p>I create thoughtful video essays on various topics and upload them to YouTube.</p>
-                </div>
-                
-                <div class="hobby-item">
-                    <div class="hobby-icon">
-                        <i class="fas fa-book"></i>
-                    </div>
-                    <h3>Writing</h3>
-                    <p>I enjoy writing web novels and other creative pieces in my free time.</p>
-                </div>
-                
-                <div class="hobby-item">
-                    <div class="hobby-icon">
-                        <i class="fas fa-utensils"></i>
-                    </div>
-                    <h3>Cooking</h3>
-                    <p>Experimenting with new recipes and cooking techniques is a passion of mine.</p>
-                </div>
-            </div>
+        <section class="final-thoughts">
+            <h2><i class="fas fa-lightbulb"></i> Final Thoughts on the AI Landscape</h2>
+            <p>Accountability is rare in our field. We stand on the shoulders of giants - millions of hours of open-source work power our projects and train our AIs.</p>
+            
+            <p>Contributing back isn't obligation; it's respect. Writing unmaintainable AI-generated code for quick profit disrespects the legacy we've inherited.</p>
+            
+            <p>Before touching AI, practice respect and accountability. The culture of open collaboration is worth preserving.</p>
+            
+            <div class="signature">Iteranya</div>
         </section>
     </main>
 
     <footer>
         <div class="container">
-            <p>Connect with me</p>
-            <div class="social-links">
-                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-            </div>
-            <p class="copyright">© 2023 Iteranya. All rights reserved.</p>
+            <p>&copy; 2023 Iteranya. All rights reserved.</p>
+            <p>Built with thoughtful consideration and a touch of gold.</p>
         </div>
     </footer>
 
     <script>
-        // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-
-        // Simple animation on scroll
-        const animateOnScroll = () => {
-            const elements = document.querySelectorAll('.project-card, .philosophy-card, .hobby-item');
+        // Simple animation for timeline items
+        document.addEventListener('DOMContentLoaded', function() {
+            const timelineItems = document.querySelectorAll('.timeline-item');
             
-            elements.forEach(element => {
-                const elementPosition = element.getBoundingClientRect().top;
-                const screenPosition = window.innerHeight / 1.3;
-                
-                if(elementPosition < screenPosition) {
-                    element.style.opacity = '1';
-                    element.style.transform = 'translateY(0)';
-                }
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, { threshold: 0.1 });
+            
+            timelineItems.forEach((item, index) => {
+                item.style.opacity = '0';
+                item.style.transform = 'translateY(20px)';
+                item.style.transition = `opacity 0.5s ease ${index * 0.2}s, transform 0.5s ease ${index * 0.2}s`;
+                observer.observe(item);
             });
-        };
-
-        // Set initial state for animation
-        document.querySelectorAll('.project-card, .philosophy-card, .hobby-item').forEach(element => {
-            element.style.opacity = '0';
-            element.style.transform = 'translateY(20px)';
-            element.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+            
+            // Profile image rotation on hover
+            const profileImg = document.querySelector('.profile-img');
+            let rotation = 0;
+            
+            profileImg.addEventListener('mouseenter', () => {
+                rotation = (rotation + 5) % 360;
+                profileImg.style.transform = `rotate(${rotation}deg) scale(1.05)`;
+            });
+            
+            profileImg.addEventListener('mouseleave', () => {
+                profileImg.style.transform = 'rotate(0) scale(1)';
+            });
         });
-
-        // Run animation check on scroll and load
-        window.addEventListener('scroll', animateOnScroll);
-        window.addEventListener('load', animateOnScroll);
     </script>
 </body>
 </html>
-```
