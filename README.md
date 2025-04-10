@@ -39,7 +39,7 @@ Here are my current ongoing projects:
 
 - [Mob Talker SDK](https://github.com/Iteranya/MobTalkerSDK): Originally built to create script/resource pack for a Visual Novel Engine embedded inside a Minecraft. It is platform agnostic, the script written with this SDK are in pure Json FSM Format. Uses custom scripting language built on top of python.
 - [Aktiva AI](https://github.com/Iteranya/AktivaAI): A versatile self-hosted Discord bot designed to enable users to interact seamlessly with multiple AI personalities in a single environment. Designed for assistant, roleplay, and quality of life. It supports multiple personality,  web search, image recognition, pdf reading, and more. Designed for Local AI but supports 3rd Party AI.
-- [Aina AI](https://github.com/Iteranya/Aina-Website-Builder): A simple HTML Viewer with an AI Attached to it. Supports any endpoint. I made it to help me create UI design for my projects. Turns out, she became more... 'powerful' than I expected. Check out [Aina-chan's Github Account](https://github.com/Ars-Aina) for projects I made with her help. 
+- [Aina AI](https://github.com/Iteranya/Aina-Website-Creator): A simple HTML Viewer with an AI Attached to it. Supports any endpoint. I made it to help me create UI design for my projects. Turns out, she became more... 'powerful' than I expected. Check out [Aina-chan's Github Account](https://github.com/Ars-Aina) for projects I made with her help. 
 
 ### Development
 
@@ -152,6 +152,8 @@ So after realizing how fucked up the first version of Aina-chan was, I archived 
 
 This is the "Real" version of Aina-chan.
 
+https://github.com/Iteranya/Aina-Website-Creator
+
 Parts of her code (The HTML's) were made by herself, as that... "Flair of Personality", even the personality is made by her.
 
 She's open source, obviously, I'm planning to turn her into a CMS similar to Wordpress, I've plans for that.
@@ -166,5 +168,3 @@ Have a nice day then.
 I make Video Essays on Youtube, Write Things in Web Novel, and such.
 
 Also cooking.
-
-
