@@ -8,7 +8,7 @@ Things have changed, a lot...
 
 I have three, uhh, 'Flagship' project now.
 
-[Viel-chan](https://github.com/Iteranya/viel-ai), [Anita-chan](https://github.com/Iteranya/anita-cms/edit/main/README.md), [Hikarin-chan](https://github.com/Iteranya/hikarin-framework)
+[Viel-chan](https://github.com/Iteranya/viel-ai), [Anita-chan](https://github.com/Iteranya/anita-cms), [Hikarin-chan](https://github.com/Iteranya/hikarin-framework)
 
 All three of them are, how do I say this... My legacy, it defines everything I stood for.
 
