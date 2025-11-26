@@ -26,13 +26,13 @@ And I have strict standard on how the app should work.
 
 In fact, I happily say that I don't follow tech news nonsense.
 
-Rust is something that happens to iron due to oxidation
-Go is a verb used when something begins
-React is another verb similar to the word 'act'
-Javascript is a language you use with HTML and CSS to make website interactive
-Python is a programming language
-Linux is a headless operating system used for servers
-AI is a neat tool that makes you boiler plate code and writes CSS for you.
+- Rust is something that happens to iron due to oxidation
+- Go is a verb used when something begins
+- React is another verb similar to the word 'act'
+- Javascript is a language you use with HTML and CSS to make website interactive\
+- Python is a programming language
+- Linux is a headless operating system used for servers
+- AI is a neat tool that makes you boiler plate code, writes CSS, roleplay for you
 
 ## Vibe Coder?
 
