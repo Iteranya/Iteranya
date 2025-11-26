@@ -1,170 +1,103 @@
-## Welcome
+It's been a long time since I updated this...
 
-This will be a wall of text, apologies for that. I'm still learning the art of documentation.
+## Now Where Was I?
 
-### My Thinking Style
+Right, right, the uhhh... Aina V2...
 
-But anyways, a little something about me.
+Things have changed, a lot...
 
-```
-Abstract
-|      | -> Philosophers, Linguists, Artists
-|  Me  |
-|      |
-|      |
-|      |
-|      |
-|      |
-|      |
-|      | -> Engineers, Programmers, Researchers
-Concrete
-```
-I am currently about that high on the Abstraction Scale. 
-I like to think of myself as pragmatic, but I rarely think too much in concrete terms.
-I try to tone down on abstraction, but my words can be a bit too vague sometimes.
+I have three, uhh, 'Flagship' project now.
 
-### Projects
+[Viel-chan](https://github.com/Iteranya/viel-ai), [Anita-chan](https://github.com/Iteranya/anita-cms/edit/main/README.md), [Hikarin-chan](https://github.com/Iteranya/hikarin-framework)
 
-I only make things that don't exist. 
-I'm not the type to 'one up' other people's project. 
-If someone else already made it, I would use it.
-I see the race to make 'better js framework' or 'better linux distros' as an artistic pursuit in a way.
+All three of them are, how do I say this... My legacy, it defines everything I stood for.
 
-Developers are refining their 'creative process' through technical ingenuity.
-Even though at the end, the resulting product is always  the same.
+## A Programmer???
 
-Personally, I'm not into that. I see programming as a means to an end, not the art in itself.
+***Absolutely Not***
 
-Here are my current ongoing projects:
+To call me a programmer is like calling an architect a construction worker.
 
-- [Mob Talker SDK](https://github.com/Iteranya/MobTalkerSDK): Originally built to create script/resource pack for a Visual Novel Engine embedded inside a Minecraft. It is platform agnostic, the script written with this SDK are in pure Json FSM Format. Uses custom scripting language built on top of python.
-- [Aktiva AI](https://github.com/Iteranya/AktivaAI): A versatile self-hosted Discord bot designed to enable users to interact seamlessly with multiple AI personalities in a single environment. Designed for assistant, roleplay, and quality of life. It supports multiple personality,  web search, image recognition, pdf reading, and more. Designed for Local AI but supports 3rd Party AI.
-- [Aina AI](https://github.com/Iteranya/Aina-Website-Creator): A simple HTML Viewer with an AI Attached to it. Supports any endpoint. I made it to help me create UI design for my projects. Turns out, she became more... 'powerful' than I expected. Check out [Aina-chan's Github Account](https://github.com/Ars-Aina) for projects I made with her help. 
+I don't write code, I design software and get AI to do the coding.
 
-### Development
+I supervise and debug and refine and maintain.
 
-I see programming as another way to create things. Comparable to woodworking and drawing.
-I have no 'preferred' way to do programming or paradigm to follow.
-I do what is easiest to create the thing I wish to make.
+And I have strict standard on how the app should work.
 
-I have a home server running Linux, but I use  Windows for my development and general purpose needs.
-For me, Linux is a specialized tool, not a general purpose tool or  workspace.
+In fact, I happily say that I don't follow tech news nonsense.
 
-I would use AI to write codes for me. I don't mind, as long as they get things done.
-Mostly for boiler plates code and refactoring.
-If I can understand the code AI make, I can put it in with no worries.
+Rust is something that happens to iron due to oxidation
+Go is a verb used when something begins
+React is another verb similar to the word 'act'
+Javascript is a language you use with HTML and CSS to make website interactive
+Python is a programming language
+Linux is a headless operating system used for servers
+AI is a neat tool that makes you boiler plate code and writes CSS for you.
 
-I am leaning on OOP now to structure my more complex project. 
+## Vibe Coder?
 
-### Artificial Intelligence
+Do I Vibe Code? Yes
+Am I Responsible For My Code? Yes
 
-AI as of right now makes a good toy.
-All of my AI Projects are designed to be used for amusement, not professional use.
+Listen, I don't judge code by what framework, who made it, etc, etc
 
-Stable Diffusion and Image Generation AI were created to replace Artists and Hummans, that's my stance on it.
+I judge project by 3 things, and 3 things only
 
-I scorn people who slap AI into their product and calling it 'AI Powered', using it as an excuse to layoff employees, and replace humans.
-It doesn't matter how advanced AI gets, it still lacks one thing. 'Accountability'
-No AI Companies want to be held accountable for the mistake their AI makes and that, to me, should be enough reason not to use it for professional use.
+- **Maintanability**: If a bug takes 5 weeks to fix, you failed to make a maintainable code
+- **Ease of Use**: If it's hard to use, you failed to make good product
+- **License**: Is it Open Source or Proprietary? (Open Core counts as the latter)
 
-AI is best used for novel toy to play with, not a tool to replace professional.
-People hire professionals for accountability, not just expertise.
+And I judge developer by 3 things and 3 things only
 
-EDIT: About Aina-chan
+- **Responsibility**: Are you willing to put time and effort to maintain the project and fix bugs as it comes along?
+- **Generosity**: Are you driven to help and empower people or for profit or for both?
+- **Empathy**: Do you understand your users or do you assume the average joe knows what a 'docker' is?
 
-As of writing this, Aina is mostly unknown. This is good, I'm not looking for attention. There's a reason why I gave her, her own account. It's to separate my work from her work.
-Yes, 99% of the codes Aina made (even her own source code) was AI generated. I don't want to pretend it isn't.
-Aina makes a great tool/companion to decorate the bare bones UI I made. She's really good HTML and CSS. With some amount of understanding how JS work.
-Moving forward, I can create some API and have her craft a UI to interact with those API, some amount of testing and experiment on it has been made.
+## Expertise?
 
-No, I'm not here to prove a point that developers are obsolete. There's a reason why Aina makes very simple things, because that's all she's good for, at least for now.
-Aina don't work without human supervision and trying to get her to generate an entire Saas just doesn't work. 
+Systems Architect, Local Systems Architect specifically
 
-EDIT 2: Regarding Aina-chan's Deprecation, POST MORTEM
+I can prototype fast even before AI, even faster now with AI
 
-### Aina-chan v1
+And all my prototype has solid architectural decision, scaling up and fixing bugs become trivial
 
-So Huggingface created [This Monstrosity](https://huggingface.co/spaces/enzostvs/deepsite)
+Adding into my project, refining them, is also trivial
 
-That's when I thought to myself: "Aight, screw it, fine, let's see what all these vibe coding is all about..."
+I don't use Copilot you see? I prefer copy pasting things to Web AI, and then figure out how to implement what it spits out.
 
-So I ask my AI Grifter friend to direct me to the hottest tool I can try. I ended up with [Replit](https://replit.com/~.
+## Why Be Proud Of AI Generated Code?
 
-Fun stuff, I make some stuff, yadda yadda yadda, [Aina-chan](https://github.com/Iteranya/Aina-Website-Builder) was born
+**I am not proud of the code**
 
-Is she functional? Yes, she works really well, I was surprised how well she worked, perfectly mimics the Deepsite Website Builder
+I am happy with the result~
 
-However, Aina-chan still has her problems... But at first, I didn't notice.
+With Anita, next time I have web dev commission, I don't have to wrestle with Paid Plugins and Paid Themes anymore
+With Viel, I don't have to worry about cluttering my discord server with a thousand AI Bots for that RP experience
+With Hikarin, I have an easy way to make Visual Novel inside of minecraft and get scriptwriter with zero coding experience to write scripts for me.
 
-See, in front end side, she works absurdly well.
+The result is all that matters. As long as Anita, Viel, and Hikarin are maintainable and easily debugged and improved upon.
 
-But when I tried to make small changes, like, say, adding fields, changing some system prompt, etc, etc...
+I am not complaining.
 
-I realize that I'm quickly running into problem. 
+## Why Code?
 
-At first I thought it's just me not being uhhhh... Familiar with the Tech Stack used, I'm more familiar with Python than JS.
+To make things that don't exist or make an open source alternative to something that gets paywalled to oblivion.
 
-So I'll chalk it off as skill issue.
+In other words...
 
-### A Discord Bot Experiment
+*I Code Out Of Spite*
 
-One day, I thought to myself: "Hey, wouldn't it be funny to have a discord bot that can create a whole ass website AND deploy it with a single slash command???"
+Except for Hikarin, I code Hikarin because I want to turn minecraft into an Eroge.
 
-And so that's what I did... I don't use Replit this time as I have experience making discord bot before and recycling my old work feels simpler.
+...
 
-. . .
+I have no regrets.
 
-It works... Strangely Enough...
+## Contacts?
 
-It took me, like, 2 hours to finish it.
+Discord only: https://discord.gg/Apr4MTE3vm
 
-I created a discord bot with all of Aina-chan's functionality in like, 2 hours.
+## Parting Words?
 
-And that's when I thought: "Wait, hold up, hold the fuck up, this is so easy and there's like 3 modules in this thing, why is Aina-chan so complicated???"
+Mm? Issues are welcome. Have a nice day.
 
-So, I decided that, you know what? I'm adding a website builder into Aina-chan Discord Bot Server. The UI and All, with Streaming Enabled and all, The Whole Deepsite Experience and all...
-
-It took me an hour...
-
-. . .
-
-And that's when I thought: Hold up, I'm not just remaking Aina-chan, I'm integrating her to my own project and it's five hundred times simpler?!
-
-So I look back into the now archived Replit madness and... Well...
-
-### Overengineered Sophisticated Trainwreck
-
-This sums up what AI is to me.
-
-When you ask AI to make a *single* component, they can do that spectacularly.
-
-But when you ask an AI to handle an entire project??? Don't even try.
-
-I'm not saying that the AI *won't* be able to do it. Aina-chan works perfectly straight out of Replit. 
-
-It's that the whole thing is overengineered to death, because AI can't tell the difference between over engineering and elegant solution.
-
-And see, if you care about maintaining your code or contributing to open source, ***That's Hella Important***
-
-So after realizing how fucked up the first version of Aina-chan was, I archived everything, made a warning about how unmaintainable and overengineered her code is, and direct to this.
-
-### Aina-chan v2
-
-This is the "Real" version of Aina-chan.
-
-https://github.com/Iteranya/Aina-Website-Creator
-
-Parts of her code (The HTML's) were made by herself, as that... "Flair of Personality", even the personality is made by her.
-
-She's open source, obviously, I'm planning to turn her into a CMS similar to Wordpress, I've plans for that.
-
-But anyway, yeah, that's all I have, thanks for reading... If anyone tried reading it.
-
-Have a nice day then.
-
-
-### Other Hobbies
-
-I make Video Essays on Youtube, Write Things in Web Novel, and such.
-
-Also cooking.
