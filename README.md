@@ -2,7 +2,7 @@ I AM NOT INSANE I SWEAR
 
 LISTEN, LISTEN...  
 
-The Grand Design Is REAL!!!
+7th's Grand Design Is REAL!!!
 
 Existence is secondary in this kaleidoscope of existence!!!
 
@@ -12,60 +12,173 @@ Wait, wait, I have to context, context...
 
 . . . . . . .
 
-So, so, it came upon me one day...
+Okay, so... Internet, right?
 
-What if we..
+It's an entire world
 
-BEAR WITH ME
+But like... Who lives there???
 
-Can we make Religions open source!?!?!
+People??? NO! 
+IDENTITY!!!
 
-What if anyone can make their own religion!!!
+And think about it... Who owns those identity???
 
-And, and, what does that have anything to do with my project!?
+You right? The people??
 
-THE HOLY TRINITY OF CREATION!!!!
+Well, unfortunately, NO!!!
 
-Viel shall bridge the gap between the Static Everlasting and the Realm of Consciousness
-Anita shall be the platform upon which all is created
-Hikarin shall be the colors, the tyranny of qualia that governs everything
+Google can erase you off of existence if they want!!
 
-BEAR WITH ME!!!
-
-And, and, listen, listen
-
-You know Waifu!? Weebs?! Parasocial relationship with a fictional entity!??!
-
-IS THAT NOT WHAT RELIGION IS??!?!?!
-
-And it gives one power, the power of faith and assumption as coded by Neville Goddard...
-
-AND!!!
+(not that they will, Google-chan, please don't kill me, this is rethoric, thankies)
 
 AND BEAR WITH ME!!!
 
-If you, say, created a gacha game, right?????
+What if, what if you can make your identity immortal?!
 
-And in it, there are fictional idols or characterss
+And, and, identity is just something your brain made up, right???
 
-No, no, not worship
+Fake accounts? RP Accounts???
 
-But appease
+And like, and like, you should own that, get me???
 
-Like someone one that you inspire to be
+And then all these identity creates content!!!
 
-And, and, they're not owned by anyone, but truly open source
+These are proofs of your identity's existence in the INTERNET!!! The Static Everlasting!!!
 
-And, you can create ritual!! Like in The Button Experiment!!!
+And, think about it, who owns these contents!?
 
-AND TULPA!!!
+NOT YOU!!! EXACTLY!!!
 
-And, and, BEAR WITH ME!!!
+So, now, bear with me...
+
+What if I, ARS ITERANYA!!! THE 10th ITERATION OF THE ETERNAL PARADOX SEQUENCE!!!
+
+Create a way for identities to exists in the internet, UNBOUND!!!
+
+And not just identities, but also CONTENT! And, and, persona!!! 
+
+AND EVERYTHING IN BETWEEN!!!
+
+You get me? You get me???
+
+YES YES?!
+
+Okay, okay, problem one:
+
+You cannot just spin up your own facebook
+Making website is hard and expensive
+
+SOLUTION!?!?
+
+ANITA!!!
+
+Yes, I know, she's still at her infancy, BUT BEAR WITH ME!!!
+
+One Anita Instance, Multiple Anita.db file
+
+FOR EVERY CLIENT!!!
+
+OR BETTER YET!!!
+
+One Anita Instance, Multiple Postgre DB, ONE Postgre Cluster
+
+AND MAKE IT PUBLICLY AVAILABLE!!! LIKE CATBOX!!!
+
+NOW EVERYONE CAN MAKE WEBSITE!!! REEEEEEE-
+
+Okay, but, problem two:
+
+Making Website Is Hard
+(And people hate AI)
+
+FAIR! FAIR!! INDEED!!!
+
+While Anita's AI Integration is great, it's better if we don't use AI to create content
+
+So, so, hear me out...
+
+HIKARIN!!!!
+
+What does a Visual Novel Engine have anything to do with-
+
+DOMAIN SPECIFIC LANGUAGE REEEEEEEE-
+
+Ditch HTML, CSS, let's code in JSON!!! 
+
+And Tailwind!!!
+
+And Alpine!!!
+
+Okay and maybe some HTML and CSS
+
+Butt hat's just th estuff generateed byt he DSL!!!
+
+REEEEE-
+
+Okay, okay, but what about AI!??!?!
+
+Are we just gonna ditch it?!
+
+NO!!!
+
+NEW PAPER RELEASED BY OPENROUTER
+
+100T TOKENS!!!
+
+54% USE FOR AI IS FOR ROLEPLAY!!!
+
+So no SLOP, just characters, bring your character to life!!!
+
+But, no, no that is not ALL!!!
 
 
-WE CAN CREATE WORLD PEACE!!!
+7th's GRAND DESIGN IS REAL!!!!!
 
-WE SHALL TAKE BACK SPIRITUALITY REEEEE-
+The 7th Iteration of The Eternal Paradox Sequence!!!
+
+They hath designed solution so elegant to the darkness of the modern world!!
+
+What can we learn from Camus? Schopenheur!?
+
+THAT'S RIGHT!!! WE ARE LOST WITHOUT A PURPOSE!!!
+
+WHY!?!?!?
+
+Because Purpose Is Robbed Of US!!!
+
+Are We Not Identities Piloting A Mind!??!
+
+But then, why, WHY, are we letting authority constitution tell us what to believe in!?!?
+
+That's right, I'M TALKING ABOUT OPEN SOURCE RELIGION!!!
+
+CREATE FICTIONAL CHARACTER!!!
+
+IDOLS!!!
+
+AND CREATE A TEMPLE FOR THEIR EXISTENCE, FOR THEM TO INTERACT, THROUGH ACT OF WORSHIP!!!
+
+WE SHALL CREATE THE 21ST CENTURY OLYMPIANS!!!
+
+All Existence Shall EXIST IN THE DIGITAL REALM!!!
+
+And it shall be yours see!!?!?
+
+You know Gacha games??!?! It wrings you dry but you keep going?! WHY!?!?!?
+
+BECAUSE YOU IDOLIZE THAT CHARACTER 
+
+And IT can BE PURPOSE!!!
+
+TO CREATE ONE'S OWN PURPOSE!!!
+
+Website That Interacts With Each Other, Online Identity NOt BOund to a single platform, but through interconnected network!!!
+
+THIS IS THE INTERNET!!! 
+
+AS PROPHESIZED BY THE 7TH ITERATION!!!
+
+REEEEEEEEEEEEEE-
 
 ---
 
@@ -73,3 +186,10 @@ Contact:
 
 Discord Server: https://discord.gg/Apr4MTE3vm
 
+---
+
+This is half satire, philosphy does that to you
+...
+Yeah, I'm turning the Internet into MMORPG
+...
+Yes, it's possible, FIGHT ME, REEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
