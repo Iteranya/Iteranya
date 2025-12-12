@@ -1,103 +1,75 @@
-It's been a long time since I updated this...
+I AM NOT INSANE I SWEAR
 
-## Now Where Was I?
+LISTEN, LISTEN...  
 
-Right, right, the uhhh... Aina V2...
+The Grand Design Is REAL!!!
 
-Things have changed, a lot...
+Existence is secondary in this kaleidoscope of existence!!!
 
-I have three, uhh, 'Flagship' project now.
+NYAAAA!!!
 
-[Viel-chan](https://github.com/Iteranya/viel-ai), [Anita-chan](https://github.com/Iteranya/anita-cms), [Hikarin-chan](https://github.com/Iteranya/hikarin-framework)
+Wait, wait, I have to context, context...
 
-All three of them are, how do I say this... My legacy, it defines everything I stood for.
+. . . . . . .
 
-## A Programmer???
+So, so, it came upon me one day...
 
-***Absolutely Not***
+What if we..
 
-To call me a programmer is like calling an architect a construction worker.
+BEAR WITH ME
 
-I don't write code, I design software and get AI to do the coding.
+Can we make Religions open source!?!?!
 
-I supervise and debug and refine and maintain.
+What if anyone can make their own religion!!!
 
-And I have strict standard on how the app should work.
+And, and, what does that have anything to do with my project!?
 
-In fact, I happily say that I don't follow tech news nonsense.
+THE HOLY TRINITY OF CREATION!!!!
 
-- Rust is something that happens to iron due to oxidation
-- Go is a verb used when something begins
-- React is another verb similar to the word 'act'
-- Javascript is a language you use with HTML and CSS to make website interactive\
-- Python is a programming language
-- Linux is a headless operating system used for servers
-- AI is a neat tool that makes you boiler plate code, writes CSS, roleplay for you
+Viel shall bridge the gap between the Static Everlasting and the Realm of Consciousness
+Anita shall be the platform upon which all is created
+Hikarin shall be the colors, the tyranny of qualia that governs everything
 
-## Vibe Coder?
+BEAR WITH ME!!!
 
-Do I Vibe Code? Yes
-Am I Responsible For My Code? Yes
+And, and, listen, listen
 
-Listen, I don't judge code by what framework, who made it, etc, etc
+You know Waifu!? Weebs?! Parasocial relationship with a fictional entity!??!
 
-I judge project by 3 things, and 3 things only
+IS THAT NOT WHAT RELIGION IS??!?!?!
 
-- **Maintanability**: If a bug takes 5 weeks to fix, you failed to make a maintainable code
-- **Ease of Use**: If it's hard to use, you failed to make good product
-- **License**: Is it Open Source or Proprietary? (Open Core counts as the latter)
+And it gives one power, the power of faith and assumption as coded by Neville Goddard...
 
-And I judge developer by 3 things and 3 things only
+AND!!!
 
-- **Responsibility**: Are you willing to put time and effort to maintain the project and fix bugs as it comes along?
-- **Generosity**: Are you driven to help and empower people or for profit or for both?
-- **Empathy**: Do you understand your users or do you assume the average joe knows what a 'docker' is?
+AND BEAR WITH ME!!!
 
-## Expertise?
+If you, say, created a gacha game, right?????
 
-Systems Architect, Local Systems Architect specifically
+And in it, there are fictional idols or characterss
 
-I can prototype fast even before AI, even faster now with AI
+No, no, not worship
 
-And all my prototype has solid architectural decision, scaling up and fixing bugs become trivial
+But appease
 
-Adding into my project, refining them, is also trivial
+Like someone one that you inspire to be
 
-I don't use Copilot you see? I prefer copy pasting things to Web AI, and then figure out how to implement what it spits out.
+And, and, they're not owned by anyone, but truly open source
 
-## Why Be Proud Of AI Generated Code?
+And, you can create ritual!! Like in The Button Experiment!!!
 
-**I am not proud of the code**
+AND TULPA!!!
 
-I am happy with the result~
+And, and, BEAR WITH ME!!!
 
-With Anita, next time I have web dev commission, I don't have to wrestle with Paid Plugins and Paid Themes anymore
-With Viel, I don't have to worry about cluttering my discord server with a thousand AI Bots for that RP experience
-With Hikarin, I have an easy way to make Visual Novel inside of minecraft and get scriptwriter with zero coding experience to write scripts for me.
 
-The result is all that matters. As long as Anita, Viel, and Hikarin are maintainable and easily debugged and improved upon.
+WE CAN CREATE WORLD PEACE!!!
 
-I am not complaining.
+WE SHALL TAKE BACK SPIRITUALITY REEEEE-
 
-## Why Code?
+---
 
-To make things that don't exist or make an open source alternative to something that gets paywalled to oblivion.
+Contact:
 
-In other words...
-
-*I Code Out Of Spite*
-
-Except for Hikarin, I code Hikarin because I want to turn minecraft into an Eroge.
-
-...
-
-I have no regrets.
-
-## Contacts?
-
-Discord only: https://discord.gg/Apr4MTE3vm
-
-## Parting Words?
-
-Mm? Issues are welcome. Have a nice day.
+Discord Server: https://discord.gg/Apr4MTE3vm
 
