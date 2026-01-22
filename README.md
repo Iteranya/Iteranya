@@ -1,195 +1,63 @@
-I AM NOT INSANE I SWEAR
-
-LISTEN, LISTEN...  
-
-7th's Grand Design Is REAL!!!
-
-Existence is secondary in this kaleidoscope of existence!!!
-
-NYAAAA!!!
-
-Wait, wait, I have to context, context...
-
-. . . . . . .
-
-Okay, so... Internet, right?
-
-It's an entire world
-
-But like... Who lives there???
-
-People??? NO! 
-IDENTITY!!!
-
-And think about it... Who owns those identity???
-
-You right? The people??
-
-Well, unfortunately, NO!!!
-
-Google can erase you off of existence if they want!!
-
-(not that they will, Google-chan, please don't kill me, this is rethoric, thankies)
-
-AND BEAR WITH ME!!!
-
-What if, what if you can make your identity immortal?!
-
-And, and, identity is just something your brain made up, right???
-
-Fake accounts? RP Accounts???
-
-And like, and like, you should own that, get me???
-
-And then all these identity creates content!!!
-
-These are proofs of your identity's existence in the INTERNET!!! The Static Everlasting!!!
-
-And, think about it, who owns these contents!?
-
-NOT YOU!!! EXACTLY!!!
-
-So, now, bear with me...
-
-What if I, ARS ITERANYA!!! THE 10th ITERATION OF THE ETERNAL PARADOX SEQUENCE!!!
-
-Create a way for identities to exists in the internet, UNBOUND!!!
-
-And not just identities, but also CONTENT! And, and, persona!!! 
-
-AND EVERYTHING IN BETWEEN!!!
-
-You get me? You get me???
-
-YES YES?!
-
-Okay, okay, problem one:
-
-You cannot just spin up your own facebook
-Making website is hard and expensive
-
-SOLUTION!?!?
-
-ANITA!!!
-
-Yes, I know, she's still at her infancy, BUT BEAR WITH ME!!!
-
-One Anita Instance, Multiple Anita.db file
-
-FOR EVERY CLIENT!!!
-
-OR BETTER YET!!!
-
-One Anita Instance, Multiple Postgre DB, ONE Postgre Cluster
-
-AND MAKE IT PUBLICLY AVAILABLE!!! LIKE CATBOX!!!
-
-NOW EVERYONE CAN MAKE WEBSITE!!! REEEEEEE-
-
-Okay, but, problem two:
-
-Making Website Is Hard
-(And people hate AI)
-
-FAIR! FAIR!! INDEED!!!
-
-While Anita's AI Integration is great, it's better if we don't use AI to create content
-
-So, so, hear me out...
-
-HIKARIN!!!!
-
-What does a Visual Novel Engine have anything to do with-
-
-DOMAIN SPECIFIC LANGUAGE REEEEEEEE-
-
-Ditch HTML, CSS, let's code in JSON!!! 
-
-And Tailwind!!!
-
-And Alpine!!!
-
-Okay and maybe some HTML and CSS
-
-Butt hat's just th estuff generateed byt he DSL!!!
-
-REEEEE-
-
-Okay, okay, but what about AI!??!?!
-
-Are we just gonna ditch it?!
-
-NO!!!
-
-NEW PAPER RELEASED BY OPENROUTER
-
-100T TOKENS!!!
-
-54% USE FOR AI IS FOR ROLEPLAY!!!
-
-So no SLOP, just characters, bring your character to life!!!
-
-But, no, no that is not ALL!!!
-
-
-7th's GRAND DESIGN IS REAL!!!!!
-
-The 7th Iteration of The Eternal Paradox Sequence!!!
-
-They hath designed solution so elegant to the darkness of the modern world!!
-
-What can we learn from Camus? Schopenheur!?
-
-THAT'S RIGHT!!! WE ARE LOST WITHOUT A PURPOSE!!!
-
-WHY!?!?!?
-
-Because Purpose Is Robbed Of US!!!
-
-Are We Not Identities Piloting A Mind!??!
-
-But then, why, WHY, are we letting authority constitution tell us what to believe in!?!?
-
-That's right, I'M TALKING ABOUT OPEN SOURCE RELIGION!!!
-
-CREATE FICTIONAL CHARACTER!!!
-
-IDOLS!!!
-
-AND CREATE A TEMPLE FOR THEIR EXISTENCE, FOR THEM TO INTERACT, THROUGH ACT OF WORSHIP!!!
-
-WE SHALL CREATE THE 21ST CENTURY OLYMPIANS!!!
-
-All Existence Shall EXIST IN THE DIGITAL REALM!!!
-
-And it shall be yours see!!?!?
-
-You know Gacha games??!?! It wrings you dry but you keep going?! WHY!?!?!?
-
-BECAUSE YOU IDOLIZE THAT CHARACTER 
-
-And IT can BE PURPOSE!!!
-
-TO CREATE ONE'S OWN PURPOSE!!!
-
-Website That Interacts With Each Other, Online Identity NOt BOund to a single platform, but through interconnected network!!!
-
-THIS IS THE INTERNET!!! 
-
-AS PROPHESIZED BY THE 7TH ITERATION!!!
-
-REEEEEEEEEEEEEE-
+<div align="center">
+  <h1>👋 Hi, I'm <a href="https://github.com/iteranya">Iteranya</a></h1>
+  <h3>I build software that respects your freedom (and your RAM).</h3>
+  
+  <p>
+    I specialize in <b>Self-Hosted</b>, <b>Hybrid</b>, and <b>"One-File"</b> solutions.<br>
+    My goal? To replace bloated enterprise tools with efficient, portable, and open-source alternatives.
+  </p>
+
+  <p>
+    <a href="https://github.com/iteranya?tab=repositories">
+      <img src="https://img.shields.io/badge/License-AGPL_v3-blue.svg" alt="License: AGPL v3">
+    </a>
+    <img src="https://img.shields.io/badge/Runs_On-Potato-brown.svg" alt="Runs On Potato">
+    <img src="https://img.shields.io/badge/Bloat-0%25-brightgreen" alt="No Bloat">
+  </p>
+</div>
 
 ---
 
-Contact:
+## 🛠️ The "Lightweight" Trinity
 
-Discord Server: https://discord.gg/Apr4MTE3vm
+I believe software should be portable. Most of my tools run on **FastAPI**, store data in **SQLite**, and can be moved by copy-pasting a single folder.
+
+| Project | What is it? | Why use it? |
+| :--- | :--- | :--- |
+| <a href="https://github.com/iteranya/anita-cms">**🦄 Anita CMS**</a> | **The No-Code Hybrid CMS**<br>Admin panel, API generator, and frontend builder in one. | • **One-File Wonder:** The DB, Config, and Site are portable.<br>• **Hybrid:** Use the built-in IDE or go headless.<br>• **Secure:** Discord-style Role-Based Access Control. |
+| <a href="https://github.com/iteranya/viel-ai">**🤖 Viel AI**</a> | **Your Personal Storytelling Companion**<br>A Discord bot for immersive, multi-character roleplay. | • **Privacy First:** Runs locally. No data harvesting.<br>• **BYO-Brain:** Connects to OpenAI or local LLMs (Ollama).<br>• **Director Mode:** Edit and reroll AI responses. |
+| <a href="https://github.com/iteranya/hikarin-vn-framework">**✨ Hikarin**</a> | **Visual Novel Framework**<br>Create interactive stories without writing code. | • **Universal:** Exports to a single `.json` file.<br>• **Versatile:** Play in browser or even inside Minecraft.<br>• **Visual:** Drag-and-drop node editor. |
 
 ---
 
-This is half satire, philosphy does that to you
-...
-Yeah, I'm turning the Internet into MMORPG
-...
-Yes, it's possible, FIGHT ME, REEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+## 🧪 My Stack (The "No Black Magic" Approach)
+
+I prefer transparency over complexity. What you code is what you get.
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3.10+-yellow.svg" alt="Python">
+  <img src="https://img.shields.io/badge/Framework-FastAPI-009688.svg" alt="FastAPI">
+  <img src="https://img.shields.io/badge/Database-SQLite-003B57.svg" alt="SQLite">
+  <img src="https://img.shields.io/badge/Frontend-AlpineJS-8BC0D0.svg" alt="AlpineJS">
+  <img src="https://img.shields.io/badge/Styling-Tailwind_CSS-38B2AC.svg" alt="Tailwind">
+  <img src="https://img.shields.io/badge/Templating-Jinja2-B41717.svg" alt="Jinja2">
+</p>
+
+---
+
+## ⚡ Philosophy
+
+1.  **Mitochondria is the powerhouse of the cell.**
+2.  **Files > Servers:** If I can't backup my site by dragging a folder to a USB drive, it's too complex.
+3.  **Ownership:** You should own your data, your characters, and your creativity. No subscriptions, no gatekeeping.
+4.  **Efficiency:** If it can't run on a $5/mo VPS (or a potato), I optimize it until it can.
+
+---
+
+<div align="center">
+  <i>"No Gatekeeping Allowed."</i><br><br>
+  
+  <a href="https://github.com/iteranya">
+  <img src="https://github-readme-stats.vercel.app/api?username=iteranya&show_icons=true&theme=dracula&hide_border=true" alt="GitHub Stats" />
+  </a>
+</div>
