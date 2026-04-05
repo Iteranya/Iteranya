@@ -24,9 +24,9 @@ I believe software should be portable. Most of my tools run on **FastAPI**, stor
 
 | Project | What is it? | Why use it? |
 | :--- | :--- | :--- |
-| <a href="https://github.com/iteranya/anita-cms">**🦄 Anita CMS**</a> | **The No-Code Hybrid CMS**<br>Admin panel, API generator, and frontend builder in one. | • **One-File Wonder:** The DB, Config, and Site are portable.<br>• **Hybrid:** Use the built-in IDE or go headless.<br>• **Secure:** Discord-style Role-Based Access Control. |
+| <a href="https://github.com/iteranya/anita-web-studio">**🦄 Anita CMS**</a> | **The No-Code Hybrid CMS**<br>Admin panel, API generator, and frontend builder in one. | • **One-File Wonder:** The DB, Config, and Site are portable.<br>• **Hybrid:** Use the built-in IDE or go headless.<br>• **Secure:** Discord-style Role-Based Access Control. |
 | <a href="https://github.com/iteranya/viel-ai">**🤖 Viel AI**</a> | **Your Personal Storytelling Companion**<br>A Discord bot for immersive, multi-character roleplay. | • **Privacy First:** Runs locally. No data harvesting.<br>• **BYO-Brain:** Connects to OpenAI or local LLMs (Ollama).<br>• **Director Mode:** Edit and reroll AI responses. |
-| <a href="https://github.com/iteranya/hikarin-vn-framework">**✨ Hikarin**</a> | **Visual Novel Framework**<br>Create interactive stories without writing code. | • **Universal:** Exports to a single `.json` file.<br>• **Versatile:** Play in browser or even inside Minecraft.<br>• **Visual:** Drag-and-drop node editor. |
+| <a href="https://github.com/iteranya/hikarin-framework">**✨ Hikarin**</a> | **Visual Novel Framework**<br>Create interactive stories without writing code. | • **Universal:** Exports to a single `.json` file.<br>• **Versatile:** Play in browser or even inside Minecraft.<br>• **Visual:** Drag-and-drop node editor. |
 
 ---
 
