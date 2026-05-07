@@ -4,8 +4,8 @@
   <h3><i>SFX: It Just Works by Chalkeaters</i></h3>
   
   <p>
-    My specialty!? MAKING THINGS WORK WAY OUTSIDE MY PAYGRADE!!!<br>
-    Sing it with me...
+    My specialty!? <br><br> MAKING THINGS WORK WAY OUTSIDE MY PAYGRADE!!!<br>
+    Sing it with me...<br>
     <b>It Just Works, It Just Works~ Little Lies, Stunning Shows, People Buy, Money Flows, It Just Works~</b>
   </p>
 
