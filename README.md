@@ -51,7 +51,7 @@ I justsuck at React and don't like NodeJS :v
 
 ## ⚡ Philosophy
 
-1.  **Simple > Complex:** If it takes a 6 months bootcamp to teach, it's overengineered.
+1.  **Simple > Complex:** I am a teacher now and I do not have the sanity required to instruct kids how to install NodeJS
 2.  **Ownership:** I DON'T HAVE A CREDIT CARD I LITERALLY CANNOT PAY YOU EVEN IF I-
 3.  **Efficiency:** VPS IS EXPENSIVE REEEEE-
 
