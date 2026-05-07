@@ -11,8 +11,6 @@
 
   <p>
     (except money doesn't flow because... I'm broke... ahem, anyway)
-    <br><br>
-    BEHOLD! My Tech Stack!
   </p>
 
   <p>
@@ -28,7 +26,10 @@
 
 ## 🛠️ The "Lightweight" Trinity
 
+BEHOLD MY TECHSTACK!!!
+
 ~~I believe software should be portable. Most of my tools run on **FastAPI**, store data in **SQLite**, and can be moved by copy-pasting a single folder.~~
+
 I suck at Declarative Paradigm, so I'll stick with cavemen tool + AI, deal with it.
 
 | Project | What is it? | Why use it? |
