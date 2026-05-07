@@ -36,6 +36,7 @@ I suck at Declarative Paradigm, so I'll stick with cavemen tool + AI, deal with 
 ## 🧪 My Stack (The "No Black Magic" Approach)
 
 ~~I prefer transparency over complexity. What you code is what you get.~~
+
 I justsuck at React and don't like NodeJS :v
 
 <p align="left">
